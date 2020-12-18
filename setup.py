@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='cabot_alert_telegram',
-      version='0.6',
+      version='0.7.0',
       description='A Telegram alert plugin for Cabot by Arachnys',
       long_description=open('README.rst').read() + '\n' +
         open('HISTORY.txt').read(),
@@ -12,7 +12,7 @@ setup(name='cabot_alert_telegram',
       url='https://github.com/codesyntax/cabot_alert_telegram',
       license='GPL',
       install_requires=[
-        'pyTelegramBotAPI'
+        'pyTelegramBotAPI ==3.6.3'
       ],
       packages=find_packages(),
       include_package_data=True,
